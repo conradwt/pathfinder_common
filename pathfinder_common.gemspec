@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "pathfinder_common"
   gem.require_paths = ["lib"]
-  gem.version       = VERSION
+  gem.version       = PathfinderCommon::VERSION
 
   # specify any dependencies here; for example:
   gem.add_development_dependency 'minitest',            '~> 3.2.0'
