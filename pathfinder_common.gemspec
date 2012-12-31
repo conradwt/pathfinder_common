@@ -18,8 +18,10 @@ Gem::Specification.new do |gem|
   gem.version       = PathfinderCommon::VERSION
 
   # specify any dependencies here; for example:
-  gem.add_development_dependency 'minitest',            '~> 3.2.0'
-  gem.add_development_dependency 'minitest-reporters',  '~> 0.9.0'
+
+  gem.add_development_dependency 'minitest'
+  gem.add_development_dependency 'minitest-reporters'
+
   # gem.add_runtime_dependency "rest-client"
-  gem.add_runtime_dependency 'actionpack'
+  gem.add_runtime_dependency 'actionpack', '>= 2.3.14'
 end
