@@ -23,5 +23,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'minitest-reporters'
 
   # gem.add_runtime_dependency "rest-client"
-  gem.add_runtime_dependency 'actionpack', '>= 2.3.14'
+  gem.add_runtime_dependency 'actionpack', '>= 3.2.9'
 end
